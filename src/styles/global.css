@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@layer base {
+    html {
+        font-family: 'Inter Variable', sans-serif;
+        color-scheme: dark;
+
+    }
+}
