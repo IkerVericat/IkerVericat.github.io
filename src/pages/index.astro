@@ -1,10 +1,71 @@
 ---
-import Layout from '@/layouts/Layout.astro'
-import Header from '@/components/Header.astro'
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Hero from "@/components/Hero.astro";
 ---
 
 <Layout title="Portfolio de Iker Vericat">
-    <main>
-        <Header />
-    </main>
+  <main>
+    <Header />
+    <Hero />
+    <div class="bg-gray-900 mx-auto max-w-2x1 py-8 sm:py-12 lg:py-12">
+      <div class="mx-auto max-w-2x1 py-8 mb-8">
+        <div class="sm:mb-8 sm:flex sm:justify-top"></div>
+        <div class="text-left px-32">
+          <h1 class="pb-6 text-lg font-medium tracking-tight text-blue-500">
+            EXPERIENCIA
+          </h1>
+          <h1
+            class="text-5xl font-medium tracking-tight text-balance text-white"
+          >
+            Experiencia laboral
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="flex w-full flex-col md:flex-row items-top bg-gray-900 pb-48 px-32"
+    >
+      <div class="w-full md:w-1/2">
+        <div class="sm:flex sm:justify-top"></div>
+        <div class="text-left">
+          <h1 class="pb-6 text-lg font-medium tracking-tight text-blue-500">
+            WEB DEVELOPER
+          </h1>
+          <p class="text-lg font-medium text-pretty text-gray-400">
+            Desarrollador full stack con experiencia en Laravel, Vue y Astro.
+            adhahahdaadahdhaldhlahdlakhdlahsdlkahsldhalhdla
+          </p>
+        </div>
+      </div>
+
+      <div class="w-full md:w-1/2 justify-items-end">
+        <img src="src/assets/images/placeholder-img.png" alt="" class="w-120" />
+      </div>
+    </div>
+
+    <hr class="my-8 w-full border-0 border-t border-gray-700" />
+
+    <div
+      class="flex w-full flex-col md:flex-row items-top bg-gray-900 pb-110 px-32"
+    >
+      <div class="w-full md:w-1/2">
+        <img src="src/assets/images/placeholder-img.png" alt="" class="w-120" />
+      </div>
+
+      <div class="w-full md:w-1/2">
+        <div class="sm:flex sm:justify-top"></div>
+        <div class="text-right">
+          <h1 class="pb-6 text-lg font-medium tracking-tight text-blue-500">
+            WEB DEVELOPER
+          </h1>
+          <p class="text-lg font-medium text-pretty text-gray-400">
+            Desarrollador full stack con experiencia en Laravel, Vue y Astro.
+            haldaslhalhdlasdhlakhdlahdahldahldhahlas
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
 </Layout>
