@@ -1,9 +1,33 @@
 @import "tailwindcss";
 
 @layer base {
-    html {
+    :root {
         font-family: 'Inter Variable', sans-serif;
         color-scheme: dark;
+        background-color: rgb(4, 10, 24);
+        color: rgb(243, 244, 246);
+        scroll-behavior: smooth;
+    }
 
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        margin: 0;
+        min-width: 320px;
+        min-height: 100%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
     }
 }
