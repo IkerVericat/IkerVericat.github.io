@@ -11,104 +11,162 @@ import Footer from "@/components/Footer.astro";
     <Hero />
 
     <!-- Sección Experiencia -->
-    <section id="experiencia" class="mx-auto max-w-7xl px-6 py-8 sm:px-10 sm:py-12 lg:px-16 lg:py-12">
-      <div class="mx-auto mb-8 py-8 text-left">
-        <h2 class="pb-6 text-lg font-medium tracking-tight text-blue-500">EXPERIENCIA</h2>
-        <p class="text-5xl font-medium tracking-tight text-balance text-white">Experiencia laboral</p>
+    <section
+      id="experiencia"
+      class="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:px-16"
+    >
+      <div class="mb-12 text-left">
+        <h2 class="pb-4 text-lg font-medium tracking-tight text-blue-500">
+          EXPERIENCIA
+        </h2>
+        <p class="text-5xl font-medium tracking-tight text-balance text-white">
+          Experiencia laboral
+        </p>
       </div>
 
-      <div class="mx-auto flex w-full flex-col items-start gap-10 md:flex-row lg:gap-16">
+      <!-- Experiencia 1 -->
+      <div class="flex w-full flex-col items-center gap-10 md:flex-row lg:gap-16">
         <div class="w-full md:w-1/2 text-left">
-          <h3 class="pb-6 text-lg font-medium tracking-tight text-blue-500">SYSTEM ADMINISTRATOR</h3>
+          <h3 class="pb-6 text-lg font-medium tracking-tight text-blue-500">
+            SYSTEM ADMINISTRATOR
+          </h3>
           <p class="text-lg font-medium text-pretty text-gray-400">
-            He adquirido experiencia en el sector de la administración de sistemas trabajando como técnico y administrador de sistemas en Temple Autoescoles. Allí realicé tareas relacionadas con la gestión y solución de incidencias informáticas, instalación y mantenimiento de servidores, instalación de sistemas operativos, software y hardware, además de configuración y mantenimiento de redes.
+            He adquirido experiencia en el sector de la administración de
+            sistemas trabajando como técnico y administrador de sistemas en
+            Temple Autoescoles. Allí realicé tareas relacionadas con la gestión
+            y solución de incidencias informáticas, instalación y mantenimiento
+            de servidores, instalación de sistemas operativos, software y
+            hardware, además de configuración y mantenimiento de redes.
           </p>
         </div>
-        <div class="w-full md:w-1/2 flex justify-end">
-          <img src="src/assets/images/autoescolaTemple.jpg" alt="Autoescola Temple" class="h-full w-full max-w-lg rounded-2xl object-cover object-[66%_center] shadow-lg" />
+        <div class="w-full md:w-1/2">
+          <img
+            src="src/assets/images/autoescolaTemple.jpg"
+            alt="Autoescola Temple"
+            class="w-full rounded-2xl object-cover object-[66%_center] shadow-lg"
+          />
         </div>
       </div>
 
-      <hr class="w-[75vw] max-w-5xl mx-auto border-gray-700 my-20" />
+      <hr class="mx-auto my-20 w-[75vw] max-w-5xl border-neutral-800" />
 
-      <div class="mx-auto flex w-full flex-col items-start gap-10 pt-12 md:flex-row lg:gap-16">
+      <!-- Experiencia 2 -->
+      <div class="flex w-full flex-col items-center gap-10 md:flex-row lg:gap-16">
         <div class="w-full md:w-1/2">
-          <img src="src/assets/images/web_deb_experience.jpg" alt="Experiencia Web Developer" class="h-full w-full max-w-md rounded-2xl object-cover object-[66%_center] shadow-lg" />
+          <img
+            src="src/assets/images/web_deb_experience.jpg"
+            alt="Experiencia Web Developer"
+            class="w-full rounded-2xl object-cover object-[66%_center] shadow-lg"
+          />
         </div>
-        <div class="w-full md:w-1/2 flex justify-end">
-          <div class="max-w-xl text-left">
-            <h3 class="pb-6 text-lg font-medium tracking-tight text-blue-500">WEB DEVELOPER</h3>
-            <p class="text-lg font-medium text-pretty text-gray-400">
-              He adquirido experiencia laboral en el sector del desarrollo web debido a mis prácticas en Empàtica S.L., donde trabajé con el CMS WordPress y constructores como Elementor y WPBakery. Realicé tareas de interpretación de diseño, guías de estilo, desarrollo de aplicaciones web interactivas y gestión de servidores. También gestioné entornos (edición, depuración y documentación de código) y el despliegue y mantenimiento de las plataformas.
-            </p>
-          </div>
+        <div class="w-full md:w-1/2 text-left">
+          <h3 class="pb-6 text-lg font-medium tracking-tight text-blue-500">
+            WEB DEVELOPER
+          </h3>
+          <p class="text-lg font-medium text-pretty text-gray-400">
+            He adquirido experiencia laboral en el sector del desarrollo web
+            debido a mis prácticas en Empàtica S.L., donde trabajé con el CMS
+            WordPress y constructores como Elementor y WPBakery. Realicé
+            tareas de interpretación de diseño, guías de estilo, desarrollo de
+            aplicaciones web interactivas y gestión de servidores. También
+            gestioné entornos (edición, depuración y documentación de código)
+            y el despliegue y mantenimiento de las plataformas.
+          </p>
         </div>
       </div>
     </section>
 
-    <hr class="w-[75vw] max-w-5xl mx-auto border-gray-700 my-20" />
+    <hr class="mx-auto my-20 w-[75vw] max-w-5xl border-neutral-800" />
 
     <!-- Sección Sobre Mí -->
-    <section id="sobre-mi" class="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:px-16">
-      <div class="flex flex-col gap-12 md:flex-row md:items-stretch lg:gap-16">
-        <div class="flex w-full flex-col justify-center md:w-1/2 text-left">
-          <h2 class="pb-6 text-lg font-medium tracking-tight text-blue-500">SOBRE MÍ</h2>
-          <p class="text-5xl font-medium tracking-tight text-balance text-white">Iker Vericat</p>
+    <section
+      id="sobre-mi"
+      class="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:px-16"
+    >
+      <div class="flex w-full flex-col items-center gap-10 md:flex-row lg:gap-16">
+        <div class="w-full md:w-1/2 text-left">
+          <h2 class="pb-4 text-lg font-medium tracking-tight text-blue-500">
+            SOBRE MÍ
+          </h2>
+          <p class="text-5xl font-medium tracking-tight text-balance text-white">
+            Iker Vericat
+          </p>
           <p class="mt-10 text-lg font-medium text-pretty text-gray-400">
-            Soy desarrollador de software y técnico informático afincado en Cataluña. He completado los estudios de Sistemas Microinformáticos y Redes (SMX) y Desarrollo de Aplicaciones Web (DAW) en el Institut Montsià. Me apasiona crear soluciones eficientes, desde el desarrollo backend y frontend hasta la configuración y administración de infraestructuras IT.
+            Soy desarrollador de software y técnico informático afincado en
+            Cataluña. Con formación en Sistemas Microinformáticos (SMX) y
+            Desarrollo Web (DAW), disfruto construyendo aplicaciones completas,
+            cuidando tanto la lógica interna como la experiencia de usuario
+            (UX/UI). Mi stack principal se centra en Laravel, PHP, Vue.js,
+            TypeScript y Tailwind CSS, y me mantengo en constante aprendizaje,
+            incorporando tecnologías modernas como Astro a mis proyectos más
+            recientes.
           </p>
         </div>
-        <div class="flex w-full justify-center md:w-1/2 md:justify-end">
-          <img src="src/assets/images/foto-sobre-mi.webp" alt="Retrato de Iker Vericat" class="aspect-4/5 h-full w-full max-w-md rounded-2xl object-cover object-[66%_center] shadow-lg" />
+        <div class="w-full md:w-1/2">
+          <img
+            src="src/assets/images/foto-sobre-mi.webp"
+            alt="Retrato de Iker Vericat"
+            class="aspect-4/5 w-full rounded-2xl object-cover object-[66%_center] shadow-lg"
+          />
         </div>
       </div>
     </section>
 
-    <hr class="w-[75vw] max-w-5xl mx-auto border-gray-700 my-20" />
+    <hr class="mx-auto my-20 w-[75vw] max-w-5xl border-neutral-800" />
 
     <!-- Sección Proyectos -->
-    <section id="proyectos" class="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:px-16">
-      <div class="mx-auto mb-8 py-8 text-left">
-        <h2 class="pb-6 text-lg font-medium tracking-tight text-blue-500">PROYECTOS</h2>
-        <p class="text-5xl font-medium tracking-tight text-balance text-white">Proyectos destacados</p>
+    <section
+      id="proyectos"
+      class="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:px-16"
+    >
+      <div class="mb-12 text-left">
+        <h2 class="pb-4 text-lg font-medium tracking-tight text-blue-500">
+          PROYECTOS
+        </h2>
+        <p class="text-5xl font-medium tracking-tight text-balance text-white">
+          Proyectos destacados
+        </p>
       </div>
 
-      <div class="mx-auto flex w-full flex-col items-start gap-10 md:flex-row lg:gap-16">
+      <div class="flex w-full flex-col items-center gap-10 md:flex-row lg:gap-16">
         <div class="w-full md:w-1/2 text-left">
-          <h3 class="pb-6 text-lg font-medium tracking-tight text-blue-500">SAAS IOT GESTIÓN DE FLOTAS</h3>
+          <h3 class="pb-6 text-lg font-medium tracking-tight text-blue-500">
+            SAAS GESTIÓN DE FLOTAS
+          </h3>
           <p class="text-lg font-medium text-pretty text-gray-400">
-            Desarrollo de una plataforma SaaS multi-tenant para la gestión de flotas de vehículos. El proyecto incluye la arquitectura de APIs REST para el backend, desarrollo de interfaces frontend, despliegue mediante contenedores Docker e integración de hardware con dispositivos Raspberry Pi.
+            Desarrollé junto un equipo una plataforma SaaS multi-tenant para la
+            gestión de flotas de vehículos. El proyecto incluye la arquitectura
+            de APIs REST para el backend, desarrollo de interfaces frontend,
+            despliegue mediante contenedores Docker e integración de hardware
+            con dispositivos Raspberry Pi.
           </p>
         </div>
-        <div class="w-full md:w-1/2 flex justify-end">
-          <img src="src/assets/images/proyecto_iot.jpg" alt="Plataforma SaaS IoT" class="h-full w-full max-w-lg rounded-2xl object-cover object-[66%_center] shadow-lg" />
-        </div>
-      </div>
-
-      <hr class="w-[75vw] max-w-5xl mx-auto border-gray-700 my-20" />
-
-      <div class="mx-auto flex w-full flex-col items-start gap-10 pt-12 md:flex-row lg:gap-16">
         <div class="w-full md:w-1/2">
-          <img src="src/assets/images/proyecto_portfolio.jpg" alt="Portfolio Personal" class="h-full w-full max-w-md rounded-2xl object-cover object-[66%_center] shadow-lg" />
-        </div>
-        <div class="flex w-full justify-end md:w-1/2">
-          <div class="max-w-xl text-left">
-            <h3 class="pb-6 text-lg font-medium tracking-tight text-blue-500">PORTFOLIO PERSONAL</h3>
-            <p class="text-lg font-medium text-pretty text-gray-400">
-              Diseño y desarrollo de mi web personal alojada en ikervericat.dev. Este proyecto está construido utilizando Astro, TypeScript y Tailwind CSS, aplicando buenas prácticas de desarrollo con un despliegue automatizado gestionado a través de GitHub Pages.
-            </p>
-          </div>
+          <video
+            src="src/assets/video/Fleetly-video.mov"
+            class="w-full rounded-2xl object-cover shadow-lg"
+            autoplay
+            muted
+            loop
+            playsinline></video>
         </div>
       </div>
     </section>
 
-    <hr class="w-[75vw] max-w-5xl mx-auto border-gray-700 my-20" />
+    <hr class="mx-auto my-20 w-[75vw] max-w-5xl border-neutral-800" />
 
     <!-- Sección Certificados -->
-    <section id="certificados" class="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:px-16">
-      <div class="mx-auto mb-8 py-8 text-left">
-        <h2 class="pb-6 text-lg font-medium tracking-tight text-blue-500">CERTIFICADOS</h2>
-        <p class="text-5xl font-medium tracking-tight text-balance text-white">Certificaciones</p>
+    <section
+      id="certificados"
+      class="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:px-16"
+    >
+      <div class="mb-12 text-left">
+        <h2 class="pb-4 text-lg font-medium tracking-tight text-blue-500">
+          CERTIFICADOS
+        </h2>
+        <p class="text-5xl font-medium tracking-tight text-balance text-white">
+          Certificaciones
+        </p>
       </div>
     </section>
 
